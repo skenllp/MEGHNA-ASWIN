@@ -611,6 +611,7 @@ body:not(.is-revealed) #site *{animation-play-state:paused!important}
 }
 .fact:hover{transform:translateY(-4px);box-shadow:var(--shadow-m);border-color:rgba(193,150,47,.5)}
 .fact .ico{width:30px;height:30px;color:var(--gold);stroke-width:3.4;margin-bottom:8px}
+.fact .fact-img{width:32px;height:32px;object-fit:contain;border-radius:50%;background:rgba(193,150,47,.1);padding:4px}
 .fact-k{font-size:clamp(11px,2.8vw,13px);letter-spacing:.28em;text-transform:uppercase;color:var(--brass);font-weight:700}
 .fact-v{font-family:var(--f-title);font-size:clamp(17px,4.5vw,21px);color:var(--maroon);line-height:1.4;font-weight:700}
 .fact-s{font-size:12px;color:var(--ink-soft)}
